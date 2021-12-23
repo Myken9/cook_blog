@@ -46,7 +46,7 @@ class Post(models.Model):
         return self.title
 
 
-class Reciept(models.Model):
+class Recipe(models.Model):
     name = models.CharField(max_length=100)
     serves = models.CharField(max_length=50)
     prep_time = models.PositiveIntegerField(default=0)
